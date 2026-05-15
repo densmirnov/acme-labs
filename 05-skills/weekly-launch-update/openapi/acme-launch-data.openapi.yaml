@@ -1,0 +1,97 @@
+openapi: 3.0.3
+info:
+  title: ACME Launch Data API
+  version: 0.1.0
+  description: Optional example API schema for retrieving launch status data for Weekly Launch Update. Not required for the core skill.
+servers:
+  - url: https://api.example.acme.local
+paths:
+  /launch/status:
+    get:
+      summary: Get current launch status
+      operationId: getLaunchStatus
+      parameters:
+        - name: launch_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Current launch status
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  launch_id:
+                    type: string
+                  status:
+                    type: string
+                  updated_at:
+                    type: string
+                    format: date-time
+                  summary:
+                    type: string
+  /launch/risks:
+    get:
+      summary: Get current launch risks
+      operationId: getLaunchRisks
+      parameters:
+        - name: launch_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Launch risks
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  risks:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        title:
+                          type: string
+                        severity:
+                          type: string
+                          enum: [low, medium, high]
+                        owner:
+                          type: string
+                        mitigation:
+                          type: string
+  /launch/decisions:
+    get:
+      summary: Get decisions needed from leadership
+      operationId: getLaunchDecisions
+      parameters:
+        - name: launch_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Decisions needed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  decisions_needed:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        question:
+                          type: string
+                        urgency:
+                          type: string
+                          enum: [low, medium, high]
+                        context:
+                          type: string
