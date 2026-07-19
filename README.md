@@ -18,6 +18,7 @@ ACME Labs — минимальная демонстрационная среда
 4. Используйте сценарий из `02-scenarios/`.
 5. Сравните результаты в `03-outputs/`.
 6. Для решения о следующем шаге используйте `04-decisions/decision-card-template.md`.
+7. Для второго учебного видео откройте `07-video-2-demo/`: там собран полный путь от первого прогона до версии 0.2 рабочего маршрута.
 
 ## Структура
 
@@ -39,6 +40,15 @@ ACME Labs — минимальная демонстрационная среда
     week-02-output.md
   /04-decisions
     decision-card-template.md
+  /07-video-2-demo
+    README.md
+    workflow-contract-v0.2.md
+    agent-instructions.md
+    quality-gates.md
+    source-conflict.md
+    run-log.md
+    /inputs
+    /outputs
   README.md
 ```
 
