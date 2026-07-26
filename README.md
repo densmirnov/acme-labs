@@ -20,9 +20,17 @@ ACME Labs — вымышленная SaaS-компания и рабочий п�
 3. Сохраните новый результат в отдельную папку внутри `workflows/weekly-launch-update/runs/`.
 4. Добавьте наблюдение и следующее изменение в `workflows/weekly-launch-update/run-log.md`.
 
+### Проверить устойчивость и принять решение
+
+1. Откройте `evaluations/weekly-launch-update/README.md`.
+2. Прочитайте `evaluation-plan.md`, `hard-gates.md` и `rubric.md`.
+3. Сравните поведение версий 0.1 и 0.2 на пяти одинаковых случаях.
+4. Проследите связь «случай → gate → наблюдение → решение» в `evaluation-result.md`.
+5. Откройте `decision-card.md`, `demo-artifact.md` и `automation-backlog.md`.
+
 ### Собрать свой процесс
 
-Скопируйте `templates/workspace/` и заполните карточку задачи, источники, правила и сценарий. Для зрелого повторяемого процесса используйте шаблоны `templates/workflow-contract.md` и `templates/run-log.md`.
+Скопируйте `templates/workspace/` и заполните карточку задачи, источники, правила и сценарий. Для зрелого повторяемого процесса используйте шаблоны `templates/workflow-contract.md` и `templates/run-log.md`. Для проверки и решения используйте шаблоны `templates/evaluation-plan.md`, `templates/evaluation-result.md`, `templates/decision-card.md`, `templates/demo-artifact.md` и `templates/automation-backlog.md`.
 
 ## Структура репозитория
 
@@ -40,7 +48,7 @@ acme-labs/
       workflow-contract.md       источник правды о процессе
       run-log.md                 история прогонов и изменений
   skills/                        упакованные повторяемые навыки
-  evaluations/                   обычные, рискованные и неполные случаи
+  evaluations/                   случаи, результаты, gates и решения
   templates/                     заготовки для переноса на свой процесс
   examples/                      дополнительные заполненные примеры
 ```
@@ -52,7 +60,7 @@ acme-labs/
 - папка `inputs/` внутри workflow содержит данные конкретного прогона;
 - папка `runs/` и файл `run-log.md` внутри workflow сохраняют состояние и историю изменений;
 - `skills/` содержит сценарии, которые уже готовы к повторному использованию.
-- `evaluations/` проверяет устойчивость на разных типах входов.
+- `evaluations/` проверяет устойчивость на разных типах входов и связывает наблюдения с решением о следующем уровне автоматизации.
 
 ## Минимальный запрос
 
