@@ -1,5 +1,7 @@
 # Weekly Launch Update — версия 0.2
 
+Контракт: [`workflow-contract.md`](../../workflow-contract.md)
+
 Период: 18–22 мая 2026 года.
 
 ## 1. Краткий статус
