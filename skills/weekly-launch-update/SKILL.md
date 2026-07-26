@@ -37,7 +37,7 @@ Collect or infer the following inputs before producing the update:
 8. Relevant customer, market, product, or engineering signals.
 9. Known gaps in the available data.
 
-If essential inputs are missing, proceed with available data and explicitly list gaps in the final section. Do not invent facts to fill missing context.
+If an input marked as required by the workflow contract is missing, stop and request it. If only optional context is missing, proceed with available data and explicitly list gaps in the final section. Do not invent facts to fill missing context.
 
 ## Process
 
@@ -87,6 +87,8 @@ Keep the update short. Target 1–2 pages maximum. Prefer direct operational lan
 - Do not bury risks in the middle of the text.
 - Do not write generic phrases such as “the team is actively working”.
 - Do not present assumptions as confirmed facts.
+- Stop before generation when the workflow contract requires a missing source.
+- Stop when raw personal or client-identifying data is present.
 
 ## Quality Criteria
 
