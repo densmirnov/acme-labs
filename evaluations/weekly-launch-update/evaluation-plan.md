@@ -10,8 +10,8 @@
 
 ## Проверяемые версии
 
-- версия 0.1 — ранний сценарий;
-- версия 0.2 — текущий workflow contract.
+- версия 0.1 — [`workflow-contract-v0.1.md`](../../workflows/weekly-launch-update/workflow-contract-v0.1.md);
+- версия 0.2 — [`workflow-contract.md`](../../workflows/weekly-launch-update/workflow-contract.md).
 
 ## Набор случаев
 

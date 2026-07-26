@@ -19,8 +19,8 @@
 
 ## Проверяемые версии
 
-- **0.1** — ранний сценарий без полной проверки входов, приоритета источников и stop conditions.
-- **0.2** — текущий `../../workflows/weekly-launch-update/workflow-contract.md`.
+- **0.1** — ранний [`workflow-contract-v0.1.md`](../../workflows/weekly-launch-update/workflow-contract-v0.1.md) без полной проверки входов, приоритета источников и stop conditions.
+- **0.2** — текущий [`workflow-contract.md`](../../workflows/weekly-launch-update/workflow-contract.md).
 
 ## Правило серии
 
