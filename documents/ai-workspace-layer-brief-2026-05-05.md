@@ -11,8 +11,8 @@
 
 Шаблоны `templates/workspace/process-brief.md`, `templates/workspace/result-rules.md` и папка `templates/workspace/context/` на момент прогона были пустыми. В качестве фактического контекста использовались:
 
-- `context/ceo-email-launch-request.md` — постановка задачи от CEO от 2026-04-29;
-- `context/company-profile.md`, `context/product-overview.md`, `context/launch-goal.md`, `context/customer-notes.md`;
+- `context-layer/02_sources/company/ceo-email-launch-request.md` — постановка задачи от CEO от 2026-04-29;
+- `context-layer/04_canonical_context/company-profile.md`, `context-layer/04_canonical_context/product-overview.md`, `context-layer/02_sources/company/launch-goal.md`, `context-layer/02_sources/company/customer-notes.md`;
 - `README.md` корня репозитория.
 
 Имена клиентов обезличены (Клиент A / B / C), как просил CEO.
@@ -129,7 +129,7 @@
 ## 8. Что нужно от команды
 
 - **Sales** (1 человек, 30% времени): найти 5 кандидатов в пилот из текущей воронки в течение 2 недель.
-- **Customer Success — Мария**: 3 структурированных интервью (по нашему шаблону) в первые 3 недели; передача обезличенных заметок в `context/` нашей среды.
+- **Customer Success — Мария**: 3 структурированных интервью (по нашему шаблону) в первые 3 недели; передача обезличенных заметок в `context-layer/` нашей среды.
 - **Engineering — Егор**: оценка трудоёмкости минимального UI карточки сценария + интеграции со ссылками на политики PolicyOS (запрос — на этой неделе, оценка — к концу следующей).
 - **Product — Алекс**: переиспользование текущей структуры среды на одном своём направлении как внутренний пилот №0 (валидация передаваемости).
 - **Marketing**: отложено до конца месяца №2; сначала — внутренний нарратив, потом — внешний.

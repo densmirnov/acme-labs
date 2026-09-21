@@ -1,0 +1,100 @@
+{
+  "sources": [
+    {
+      "path": "02_sources/company/ceo-email-launch-request.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "context/ceo-email-launch-request.md",
+      "sha256": "befc1702b82cc4000349a5206a59334fc94b574bf01be90aa9cc709acfb3f683",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "02_sources/company/customer-notes.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "context/customer-notes.md",
+      "sha256": "8fa3239b4371f362c058ee0901d7e257ee002b62e7ea71f51e802da43622ae92",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "02_sources/company/launch-goal.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "context/launch-goal.md",
+      "sha256": "0d651f66e159d68ec1dbb9e0636cbee7dcd854bfa311169d45dc82a1c1110b7a",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "04_canonical_context/company-profile.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "context/company-profile.md",
+      "sha256": "04fe240d56ca4ff12e83dbfe65e9cb061e66e51fb0616b375a0144c850eac65c",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "04_canonical_context/product-overview.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "context/product-overview.md",
+      "sha256": "f681a1338caa25a9887275018330f4997a52809f56291d7795d3119096ceba0e",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "04_canonical_context/people/nadya-orlova.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "context/people/nadya-orlova.md",
+      "sha256": "9f9a5e573ea06b15a159b4f1ae4451446323d2b4e0e87c661e3b8f12b5b86e0f",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "04_canonical_context/policies/company-ai-rules.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "policies/company-ai-rules.md",
+      "sha256": "3daea5b933f3cd6cbf6fb49770936d1ef0c0fb698c6ecc63bd7e9ee451620829",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "04_canonical_context/policies/output-rules.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "policies/output-rules.md",
+      "sha256": "6c48bc0efd98434618bb6fccf08c584735bfe4e0d565f6d8db267b79bdf36962",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "02_sources/inputs/approved-launch-goal.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "workflows/weekly-launch-update/inputs/approved-launch-goal.md",
+      "sha256": "f98d8decc07df770f9a3211370b96fe5ee688cf5e5553947217ff81f40a19d2f",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "02_sources/inputs/current-week-notes.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "workflows/weekly-launch-update/inputs/current-week-notes.md",
+      "sha256": "146fd43b3ba957a60b7c78098129c72986a2113642995a418c1466a5bcb516b4",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "02_sources/inputs/previous-decisions.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "workflows/weekly-launch-update/inputs/previous-decisions.md",
+      "sha256": "4735c84d39cfc0db37e21025ed0247f93e0859fa823fd55602ee21699876bdbc",
+      "transformation": "relocation only"
+    },
+    {
+      "path": "02_sources/inputs/customer-signals.md",
+      "origin_repository": "https://github.com/densmirnov/acme-labs",
+      "origin_commit": "b4f82d219dd988ecc00c1153692e13fe3ef5b5f0",
+      "origin_path": "workflows/weekly-launch-update/inputs/customer-signals.md",
+      "sha256": "4efea90a82fc5078aadd4bb10b1c65c122a423dc9c55f8cd7e481254df035f78",
+      "transformation": "relocation only"
+    }
+  ]
+}

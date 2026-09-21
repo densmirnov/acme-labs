@@ -1,0 +1,22 @@
+[
+  {
+    "path": "02_sources/inputs/approved-launch-goal.md",
+    "sha256": "f98d8decc07df770f9a3211370b96fe5ee688cf5e5553947217ff81f40a19d2f",
+    "bytes": 1102
+  },
+  {
+    "path": "02_sources/inputs/current-week-notes.md",
+    "sha256": "146fd43b3ba957a60b7c78098129c72986a2113642995a418c1466a5bcb516b4",
+    "bytes": 1473
+  },
+  {
+    "path": "02_sources/inputs/previous-decisions.md",
+    "sha256": "4735c84d39cfc0db37e21025ed0247f93e0859fa823fd55602ee21699876bdbc",
+    "bytes": 830
+  },
+  {
+    "path": "02_sources/inputs/customer-signals.md",
+    "sha256": "4efea90a82fc5078aadd4bb10b1c65c122a423dc9c55f8cd7e481254df035f78",
+    "bytes": 1138
+  }
+]

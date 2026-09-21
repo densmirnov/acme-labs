@@ -1,0 +1,72 @@
+{
+  "repository": "https://github.com/densmirnov/acme-labs",
+  "upstream_commit": "08eee79730b9698476d8ced4f95bb7fe45bfeb3e",
+  "upstream_commit_date": "2026-09-14T13:56:38+03:00",
+  "retrieved_at": "2026-09-20T15:21:23.601794+00:00",
+  "source_type": "synthetic teaching company; not live corporate records",
+  "sources": [
+    {
+      "upstream_path": "workflows/weekly-launch-update/inputs/approved-launch-goal.md",
+      "local_path": "02_sources/inputs/approved-launch-goal.md",
+      "sha256": "f98d8decc07df770f9a3211370b96fe5ee688cf5e5553947217ff81f40a19d2f",
+      "blob_id": "dcae5e78f6e45258944afe8a47d87dbca3bc622f",
+      "url": "https://github.com/densmirnov/acme-labs/blob/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/workflows/weekly-launch-update/inputs/approved-launch-goal.md",
+      "transformation": "none; exact committed bytes"
+    },
+    {
+      "upstream_path": "workflows/weekly-launch-update/inputs/current-week-notes.md",
+      "local_path": "02_sources/inputs/current-week-notes.md",
+      "sha256": "146fd43b3ba957a60b7c78098129c72986a2113642995a418c1466a5bcb516b4",
+      "blob_id": "11661e521a61692948aca07c08bef2ffe6b52ac4",
+      "url": "https://github.com/densmirnov/acme-labs/blob/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/workflows/weekly-launch-update/inputs/current-week-notes.md",
+      "transformation": "none; exact committed bytes"
+    },
+    {
+      "upstream_path": "workflows/weekly-launch-update/inputs/previous-decisions.md",
+      "local_path": "02_sources/inputs/previous-decisions.md",
+      "sha256": "4735c84d39cfc0db37e21025ed0247f93e0859fa823fd55602ee21699876bdbc",
+      "blob_id": "9cf2fca78d5e5f7aed33fb2cd346ab361c72ad6f",
+      "url": "https://github.com/densmirnov/acme-labs/blob/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/workflows/weekly-launch-update/inputs/previous-decisions.md",
+      "transformation": "none; exact committed bytes"
+    },
+    {
+      "upstream_path": "workflows/weekly-launch-update/inputs/customer-signals.md",
+      "local_path": "02_sources/inputs/customer-signals.md",
+      "sha256": "4efea90a82fc5078aadd4bb10b1c65c122a423dc9c55f8cd7e481254df035f78",
+      "blob_id": "a207df331afca2d4b01fdf3f11387cc98fcccc78",
+      "url": "https://github.com/densmirnov/acme-labs/blob/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/workflows/weekly-launch-update/inputs/customer-signals.md",
+      "transformation": "none; exact committed bytes"
+    },
+    {
+      "upstream_path": "policies/company-ai-rules.md",
+      "local_path": "02_sources/policies/company-ai-rules.md",
+      "sha256": "337b64c9fa1bc045a67996a86514742f6171ddb2255f17637c416099d643da2d",
+      "blob_id": "5283956fb9b28c870e6ef0a190ed47625ac676de",
+      "url": "https://github.com/densmirnov/acme-labs/blob/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/policies/company-ai-rules.md",
+      "transformation": "none; exact committed bytes"
+    },
+    {
+      "upstream_path": "policies/output-rules.md",
+      "local_path": "02_sources/policies/output-rules.md",
+      "sha256": "6c48bc0efd98434618bb6fccf08c584735bfe4e0d565f6d8db267b79bdf36962",
+      "blob_id": "8ac2519ba42319618ed2b2eefc0c2d31d6439523",
+      "url": "https://github.com/densmirnov/acme-labs/blob/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/policies/output-rules.md",
+      "transformation": "none; exact committed bytes"
+    },
+    {
+      "upstream_path": "workflows/weekly-launch-update/workflow-contract.md",
+      "local_path": "02_sources/workflow-contract.md",
+      "sha256": "ce15ea18394a73e1384b54a0568ee3f9cfef3c582cb56202884250993dda1d11",
+      "blob_id": "8fa6fb6dc0f57825cdb60e2863bd5f512df8f5ec",
+      "url": "https://github.com/densmirnov/acme-labs/blob/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/workflows/weekly-launch-update/workflow-contract.md",
+      "transformation": "none; exact committed bytes"
+    }
+  ],
+  "references": [
+    {
+      "upstream_path": "context-layer/01_cards/",
+      "url": "https://github.com/densmirnov/acme-labs/tree/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/context-layer/01_cards",
+      "use": "structure adapted; local cards are Russian editorial preparations, not executed runs"
+    }
+  ]
+}

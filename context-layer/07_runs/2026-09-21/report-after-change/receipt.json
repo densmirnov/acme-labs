@@ -1,0 +1,64 @@
+{
+  "variant": "report-after-change",
+  "started_at": "2026-09-21T05:44:02.466927+00:00",
+  "cli_version": "codex-cli 0.154.0",
+  "model_override": null,
+  "configured_default_model": "gpt-6-astra",
+  "configured_reasoning_effort": "xhigh",
+  "prompt_sha256": "fb21a5f34ae82cfb02fb9d5f6af0e9efc7f88690e3443f9e829d4a9eb6ce29e7",
+  "input_count": 12,
+  "tools_requested": "none",
+  "sandbox": "read-only",
+  "persist_session": false,
+  "reviewer": "Codex agent; user review not performed",
+  "disabled_features": [
+    "memories",
+    "chronicle",
+    "apps",
+    "hooks",
+    "plugins",
+    "shell_snapshot",
+    "shell_tool",
+    "multi_agent",
+    "skill_search",
+    "computer_use",
+    "browser_use"
+  ],
+  "global_instructions_sha256": "665f04737ebaa19416e40620d87ad4210b42ad6d97e3783f24c67c0111c17f04",
+  "global_instructions_scope": "Generic engineering instructions; no ACME business facts or prepared answers",
+  "cwd_initially_empty": true,
+  "duration_seconds": 99.485,
+  "exit_code": 0,
+  "finished_at": "2026-09-21T05:45:42.010311+00:00",
+  "cwd_files_after": [],
+  "event_types": [
+    "item.completed",
+    "thread.started",
+    "turn.completed",
+    "turn.started"
+  ],
+  "item_types": [
+    "agent_message"
+  ],
+  "tool_events": [],
+  "turn_completed": true,
+  "usage": {
+    "input_tokens": 21304,
+    "cached_input_tokens": 9984,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3094,
+    "reasoning_output_tokens": 2070
+  },
+  "output_sha256": "c930be80e0224f834545a56f1ef7ee49c3cbadcdcf9ae0e27dbafd11c718b6d8",
+  "result_status": "completed",
+  "review_notes": "Checked business claims against supplied sources, risk responses and their proposal status, unassigned owner, and source link targets.",
+  "export": {
+    "source_metadata_sha256": "2e914767c2c790f7bd398ad2afdd459e590c1237e65e2d5ba2c54bbaa70c23bb",
+    "omitted_fields": [
+      "command",
+      "isolated_cwd",
+      "user_config_sha256"
+    ],
+    "reason": "Host paths and local configuration fingerprint omitted; business payloads and outputs preserved exactly."
+  }
+}

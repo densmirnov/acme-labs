@@ -1,0 +1,67 @@
+{
+  "variant": "documents-only",
+  "started_at": "2026-09-20T15:38:37.378723+00:00",
+  "finished_at": "2026-09-20T15:39:07.698995+00:00",
+  "cli_version": "codex-cli 0.154.0",
+  "model_override": null,
+  "configured_default_model": "gpt-6-astra",
+  "configured_reasoning_effort": "high",
+  "prompt_sha256": "ddc04d0a3e341e1d585d0be04933a6d2b7b17eef79a580f410b3e90712fc34aa",
+  "output_sha256": "2907a1b20f7d3066c2fbf40575e50955812569661e12b1ccde95f5cca2c80255",
+  "input_count": 4,
+  "tools_requested": "none",
+  "sandbox": "read-only",
+  "persist_session": false,
+  "reviewer": "Codex agent; not the user",
+  "disabled_features": [
+    "memories",
+    "chronicle",
+    "apps",
+    "hooks",
+    "plugins",
+    "shell_snapshot",
+    "shell_tool",
+    "multi_agent",
+    "skill_search",
+    "computer_use",
+    "browser_use"
+  ],
+  "global_instructions_sha256": "665f04737ebaa19416e40620d87ad4210b42ad6d97e3783f24c67c0111c17f04",
+  "global_instructions_scope": "Generic engineering instructions; no ACME business facts or prepared answers",
+  "cwd_initially_empty": true,
+  "cwd_files_after": [],
+  "duration_seconds": 30.212,
+  "exit_code": 0,
+  "event_types": [
+    "item.completed",
+    "thread.started",
+    "turn.completed",
+    "turn.started"
+  ],
+  "item_types": [
+    "agent_message"
+  ],
+  "tool_events": [],
+  "turn_completed": true,
+  "usage": {
+    "input_tokens": 15888,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 643,
+    "reasoning_output_tokens": 155
+  },
+  "result_status": "completed",
+  "reviewed_at": "2026-09-20T15:42:01.973612+00:00",
+  "model_reported_in_events": null,
+  "model_evidence_note": "Configured default model and effort recorded from CLI config; no model override. JSON event stream does not independently report the backend model ID.",
+  "output_source_links": 0,
+  "export": {
+    "source_metadata_sha256": "9905f9678e8755732996505f0a64fc78bf85b082e62ec72980c93e505734da9f",
+    "omitted_fields": [
+      "command",
+      "isolated_cwd",
+      "user_config_sha256"
+    ],
+    "reason": "Host paths and local configuration fingerprint omitted; business payloads and outputs preserved exactly."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/densmirnov/acme-labs",
+  "commit": "08eee79730b9698476d8ced4f95bb7fe45bfeb3e",
+  "source_path": "workflows/weekly-launch-update/inputs/current-week-notes.md",
+  "source_url": "https://raw.githubusercontent.com/densmirnov/acme-labs/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/workflows/weekly-launch-update/inputs/current-week-notes.md",
+  "snapshot": "02_sources/imports/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/current-week-notes.md",
+  "sha256": "146fd43b3ba957a60b7c78098129c72986a2113642995a418c1466a5bcb516b4",
+  "period": "18–22 мая 2026 года.",
+  "retrieved_at": "2026-09-20T15:21:24.199388+00:00",
+  "method": "HTTPS download of a public synthetic repository source at a resolved commit"
+}

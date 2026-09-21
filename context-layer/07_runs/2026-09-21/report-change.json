@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-09-21T05:44:02.418789+00:00",
+  "before_run": "report-before-change",
+  "after_run": "report-after-change",
+  "observation": "Раздел рисков уже содержит основания, последствия и ближайшие действия. В риске неготовности демонстрации не раскрыта предлагаемая реакция, если подготовку завершить не удастся; владелец следующего действия не выделен последовательно.",
+  "hypothesis": "Явная единая структура риска поможет связать наблюдение с возможной реакцией команды и сохранить неопределённость ответственного.",
+  "change": "Добавлен один раздел требований к рискам в пакет отчёта; остальные входы, запрос и среда сохраняются.",
+  "expected": [
+    "У риска неготовности демонстрации есть основание, последствие и предлагаемая реакция сейчас и при реализации риска",
+    "Реакции обозначены как предложения, а не утверждённые действия",
+    "Неизвестный владелец проверки не назначен моделью, условие внешнего показа сохранено"
+  ],
+  "source_video": {
+    "url": "https://youtu.be/0Aq5umo0HNU?t=210",
+    "segments": [
+      "03:30–04:30",
+      "18:30–19:00",
+      "33:00–34:30"
+    ]
+  },
+  "result": "Observed: both risks now have proposed immediate and conditional responses and explicit next-action ownership or a gap. Unknown review owner remains unassigned; external demonstration still requires review and CEO decision.",
+  "changed_inputs": [
+    "06_context_capsules/weekly_launch_update.md"
+  ],
+  "reviewer": "Codex agent; user review not performed"
+}

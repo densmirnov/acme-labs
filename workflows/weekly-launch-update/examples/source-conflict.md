@@ -2,11 +2,11 @@
 
 ## Конфликт
 
-`../inputs/approved-launch-goal.md`:
+`../../../context-layer/02_sources/inputs/approved-launch-goal.md`:
 
 > Контрольная дата 90-дневной проверки — 15 августа 2026 года.
 
-`../inputs/current-week-notes.md`:
+`../../../context-layer/02_sources/inputs/current-week-notes.md`:
 
 > Попробуем выпустить первую версию к 1 августа.
 

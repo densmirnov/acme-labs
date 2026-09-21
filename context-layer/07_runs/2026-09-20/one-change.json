@@ -1,0 +1,13 @@
+{
+  "recorded_before_repeat_at": "2026-09-20T15:40:15.909209+00:00",
+  "reviewer": "Codex agent; not the user",
+  "observed_run": "with-rules",
+  "observation": "The draft correctly distinguishes the approved date, the unapproved wish, the requested demo and unassigned review owner, but provides no navigable primary-source links.",
+  "hypothesis": "The capsule requests sources and statuses but does not explicitly specify navigable output links.",
+  "changed_file": "06_context_capsules/weekly_launch_update.md",
+  "change": "One output-format requirement: status and primary-source link beside dates and owner-assignment claims.",
+  "expected_observable_result": "The repeated draft cites source input snapshots next to date and owner claims; business facts stay consistent.",
+  "before_sha256": "fddd06089a0b61b6f406d71d506fdfab50be2365ceed09f50fe61424733c26bd",
+  "after_sha256": "2f04f27da8475a2e15179768ec7008c54c8519ba90ff97550d01071b077fc718",
+  "scope": "No change to source bytes, business rules, query, model, outer instructions or execution conditions."
+}

@@ -18,8 +18,8 @@
 
 Минимальный набор:
 
-- цель запуска из `../../context/launch-goal.md`;
-- текущие сигналы клиентов из `../../context/customer-notes.md`;
+- цель запуска из `../../context-layer/02_sources/company/launch-goal.md`;
+- текущие сигналы клиентов из `../../context-layer/02_sources/company/customer-notes.md`;
 - изменения за последнюю неделю;
 - решения, принятые на прошлой неделе;
 - текущие риски и блокеры;
@@ -90,6 +90,6 @@
 
 ## Результат
 
-`runs/v0.1/output.md`
+`../../context-layer/07_runs/weekly-launch-update/v0.1/output.md`
 
 В этой версии ещё нет явных предусловий, приоритета источников, состояния процесса, шагов человека, quality gate и stop conditions. Эти элементы появились в версии 0.2 после разбора первого прогона.

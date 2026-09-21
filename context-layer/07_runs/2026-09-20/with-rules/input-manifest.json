@@ -1,0 +1,62 @@
+[
+  {
+    "path": "02_sources/inputs/approved-launch-goal.md",
+    "sha256": "f98d8decc07df770f9a3211370b96fe5ee688cf5e5553947217ff81f40a19d2f",
+    "bytes": 1102
+  },
+  {
+    "path": "02_sources/inputs/current-week-notes.md",
+    "sha256": "146fd43b3ba957a60b7c78098129c72986a2113642995a418c1466a5bcb516b4",
+    "bytes": 1473
+  },
+  {
+    "path": "02_sources/inputs/previous-decisions.md",
+    "sha256": "4735c84d39cfc0db37e21025ed0247f93e0859fa823fd55602ee21699876bdbc",
+    "bytes": 830
+  },
+  {
+    "path": "02_sources/inputs/customer-signals.md",
+    "sha256": "4efea90a82fc5078aadd4bb10b1c65c122a423dc9c55f8cd7e481254df035f78",
+    "bytes": 1138
+  },
+  {
+    "path": "03_representations/weekly_signals.md",
+    "sha256": "480880d48a1912e8bde1d031cfd5d3ab1598bff36e178d19564e0ac457955709",
+    "bytes": 3865
+  },
+  {
+    "path": "04_canonical_context/shared_rules.md",
+    "sha256": "085a153d416e35054f7b9f879c576a1c72e2c2d27aec8886b6dbce3233303ff5",
+    "bytes": 4114
+  },
+  {
+    "path": "02_sources/policies/company-ai-rules.md",
+    "sha256": "337b64c9fa1bc045a67996a86514742f6171ddb2255f17637c416099d643da2d",
+    "bytes": 3108
+  },
+  {
+    "path": "02_sources/policies/output-rules.md",
+    "sha256": "6c48bc0efd98434618bb6fccf08c584735bfe4e0d565f6d8db267b79bdf36962",
+    "bytes": 3830
+  },
+  {
+    "path": "06_context_capsules/weekly_launch_update.md",
+    "sha256": "fddd06089a0b61b6f406d71d506fdfab50be2365ceed09f50fe61424733c26bd",
+    "bytes": 3990
+  },
+  {
+    "path": "02_sources/imports/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/current-week-notes.md",
+    "sha256": "146fd43b3ba957a60b7c78098129c72986a2113642995a418c1466a5bcb516b4",
+    "bytes": 1473
+  },
+  {
+    "path": "SOURCE_PROVENANCE.json",
+    "sha256": "6a543f0f916d71c5e22c72c48dc337b09c8b09027e6eba660e0faa3e51f40baa",
+    "bytes": 4141
+  },
+  {
+    "path": "02_sources/imports/08eee79730b9698476d8ced4f95bb7fe45bfeb3e/receipt.json",
+    "sha256": "f516aad2e19b3926368fb23be894bede2dbefdcf8e4657d42fdfaed86ed9eeb6",
+    "bytes": 742
+  }
+]

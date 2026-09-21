@@ -12,17 +12,17 @@
 
 ## Предусловия
 
-- доступен утверждённый `inputs/approved-launch-goal.md`;
+- доступен утверждённый `../../context-layer/02_sources/inputs/approved-launch-goal.md`;
 - есть заметки текущей недели;
 - доступен список решений прошлого цикла;
 - клиентские сигналы обезличены.
 
 ## Обязательные входы
 
-1. `inputs/approved-launch-goal.md`
-2. `inputs/current-week-notes.md`
-3. `inputs/previous-decisions.md`
-4. `inputs/customer-signals.md`
+1. `../../context-layer/02_sources/inputs/approved-launch-goal.md`
+2. `../../context-layer/02_sources/inputs/current-week-notes.md`
+3. `../../context-layer/02_sources/inputs/previous-decisions.md`
+4. `../../context-layer/02_sources/inputs/customer-signals.md`
 
 ## Приоритет источников
 
@@ -67,7 +67,9 @@
 
 ## Результат
 
-`runs/v0.2/output.md`
+Новый черновик: `../../context-layer/07_runs/weekly-launch-update/<run-id>/output.md`.
+
+[Сохранённый результат версии 0.2](../../context-layer/07_runs/weekly-launch-update/v0.2/output.md) — отдельная историческая запись; при повторе он не перезаписывается.
 
 ## Критерии качества
 
@@ -103,6 +105,6 @@
 
 ## Хранение
 
-- результаты прогонов: `runs/<version>/output.md`;
-- входы прогона: `inputs/`;
-- наблюдение и версия: `run-log.md`.
+- результаты прогонов: `../../context-layer/07_runs/weekly-launch-update/<run-id>/output.md`;
+- входы прогона: `../../context-layer/02_sources/inputs/`;
+- наблюдение и версия: `../../context-layer/07_runs/weekly-launch-update/run-log.md`.
